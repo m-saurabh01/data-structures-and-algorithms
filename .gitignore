@@ -1,2 +1,4 @@
 
-.DS_Store
+# Adding ds store in git ignore
+
+/.DS_Store
