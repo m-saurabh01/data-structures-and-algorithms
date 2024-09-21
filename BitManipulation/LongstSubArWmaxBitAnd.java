@@ -34,6 +34,8 @@ Output: 1
 Explanation:
 The maximum possible bitwise AND of a subarray is 4.
 The longest subarray with that value is [4], so we return 1.
+
+*
 */
 public class LongstSubArWmaxBitAnd {
 
