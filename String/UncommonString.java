@@ -6,9 +6,7 @@ import java.util.List;
 import java.util.Set;
 
 
-/*					LeetCode 884. Uncommon Words from Two Sentences Easy
- * 
- * 
+/*					LeetCode 884. Uncommon Words from Two Sentences Easy 
 A sentence is a string of single-space separated words where each word consists only of lowercase letters.
 
 A word is uncommon if it appears exactly once in one of the sentences, and does not appear in the other sentence.
