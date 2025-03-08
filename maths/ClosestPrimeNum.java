@@ -1,5 +1,9 @@
 package Maths;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class ClosestPrimeNum {
 	public int[] closestPrimes(int left, int right) {
 	    final boolean[] isPrime = sieveEratosthenes(right + 1);
