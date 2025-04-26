@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Map;
 
 /*
-			2845. Count of Interesting Subarrays
+			2845. Count of Interesting Subarrays With Fixed Bounds
 */
 
 public class CountInterestingSubarray {
