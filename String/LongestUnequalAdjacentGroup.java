@@ -6,7 +6,7 @@ import java.util.Collections;
 import java.util.List;
 
 /*
-			2901. Longest Unequal Adjacent Groups Subsequence II
+	2901. Longest Unequal Adjacent Groups Subsequence II Medium
 */
 public class LongestUnequalAdjacentGroup {
 	
