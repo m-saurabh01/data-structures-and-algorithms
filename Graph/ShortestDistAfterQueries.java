@@ -18,6 +18,8 @@ queries[i] = [ui, vi] represents the addition of a new unidirectional road from 
 Return an array answer where for each i in the range [0, queries.length - 1], answer[i] is the length of the shortest path from city 0 to city n - 1 after processing the first i + 1 queries.
  
 */
+
+@SuppressWarnings("unchecked")
 public class ShortestDistAfterQueries {
 	
 	public int[] shortestDistanceAfterQueries(int n, int[][] queries) {

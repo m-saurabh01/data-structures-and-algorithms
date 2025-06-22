@@ -20,6 +20,7 @@ For every pair of nodes in the graph that are connected by an edge [ai, bi], if 
 Return the maximum number of groups (i.e., maximum m) into which you can divide the nodes. Return -1 if it is impossible to group the nodes with the given conditions.
 */
  
+@SuppressWarnings("unchecked")
 public class DivideNodeMaxGroups {
 	
 	private List<Integer>[] graph; 

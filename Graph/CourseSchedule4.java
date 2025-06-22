@@ -66,7 +66,7 @@ public class CourseSchedule4 {
             mp.put(u,ls);
         }
 
-        int q=qu.length;
+       
         List<Boolean> res=new ArrayList<>();
 
         for(int i=0;i<qu.length;i++){

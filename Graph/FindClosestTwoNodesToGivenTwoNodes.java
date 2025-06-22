@@ -9,6 +9,9 @@ import java.util.List;
 /*
 			2359. Find Closest Node to Given Two Nodes
 */
+
+
+@SuppressWarnings("unchecked")
 public class FindClosestTwoNodesToGivenTwoNodes {
 	
 	private int n;

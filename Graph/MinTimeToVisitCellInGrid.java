@@ -13,6 +13,8 @@ You are standing in the top-left cell of the matrix in the 0th second, and you m
 Return the minimum time required in which you can visit the bottom-right cell of the matrix. If you cannot visit the bottom-right cell, then return -1.
 
 */ 
+
+@SuppressWarnings("serial")
 public class MinTimeToVisitCellInGrid {
 	
 	public int minimumTime(int[][] grid) {

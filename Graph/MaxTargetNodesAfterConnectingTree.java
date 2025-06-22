@@ -7,6 +7,7 @@ import java.util.List;
 			3372. Maximize the Number of Target Nodes After Connecting Trees I
 */
 
+@SuppressWarnings("unchecked")
 public class MaxTargetNodesAfterConnectingTree {
 	
 	public int[] maxTargetNodes(int[][] edges1, int[][] edges2, int k) {

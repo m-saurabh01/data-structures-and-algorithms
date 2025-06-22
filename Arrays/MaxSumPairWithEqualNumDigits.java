@@ -22,6 +22,8 @@ Explanation: The pairs (i, j) that satisfy the conditions are:
 - (1, 4), both numbers have a sum of digits equal to 7, and their sum is 43 + 7 = 50.
 So the maximum sum that we can obtain is 54.
 */
+
+@SuppressWarnings("unchecked")
 public class MaxSumPairWithEqualNumDigits {
 	
 	public int maximumSum(int[] nums) {

@@ -15,6 +15,8 @@ import java.util.Set;
  * 2818. Apply Operations to Maximize Score
  * 
 */
+
+@SuppressWarnings("unchecked")
 public class ApplyOperationsToMaximizeScores {
 	
 	public int maximumScore(List<Integer> nums, int k) {

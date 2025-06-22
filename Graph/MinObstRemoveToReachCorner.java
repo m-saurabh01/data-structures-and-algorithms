@@ -17,7 +17,9 @@ You can move up, down, left, or right from and to an empty cell.
 Return the minimum number of obstacles to remove so you can move from the upper left corner (0, 0) to the lower right corner (m - 1, n - 1).
 */
 
+@SuppressWarnings("serial")
 public class MinObstRemoveToReachCorner {
+	
 	
 	public int minimumObstacles(int[][] grid) {
 	    final int[][] dirs = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};

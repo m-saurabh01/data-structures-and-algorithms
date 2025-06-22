@@ -6,7 +6,9 @@ import java.util.List;
 /*
 		3170. Lexicographically Minimum String After Removing Stars
 */
+@SuppressWarnings("unchecked")
 public class LexographicallyMinStringAfterRemovingStars {
+	
 	
 	public String clearStars(String s) {
 	    StringBuilder sb = new StringBuilder(s);

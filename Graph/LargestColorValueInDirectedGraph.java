@@ -10,6 +10,8 @@ import java.util.stream.IntStream;
 /*
 			1857. Largest Color Value in a Directed Graph
 */
+
+@SuppressWarnings("unchecked")
 public class LargestColorValueInDirectedGraph {
 	
 	 public int largestPathValue(String colors, int[][] edges) {

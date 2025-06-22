@@ -19,6 +19,8 @@ You are given an integer n and a 2D integer array roads where roads[i] = [ui, vi
 
 Return the number of ways you can arrive at your destination in the shortest amount of time. Since the answer may be large, return it modulo 109 + 7.
 */
+
+@SuppressWarnings({"unchecked","serial"})
 public class NumWaystoArriveAtDest {
 	
 	public int countPaths(int n, int[][] roads) {
@@ -47,7 +49,8 @@ public class NumWaystoArriveAtDest {
 
 	    ways[src] = 1;
 	    dist[src] = 0;
-	    Queue<Pair<Long, Integer>> minHeap = new PriorityQueue<>(Comparator.comparing(Pair::getKey)) {
+	    
+		Queue<Pair<Long, Integer>> minHeap = new PriorityQueue<>(Comparator.comparing(Pair::getKey)) {
 	      { offer(Pair.of(dist[src], src)); }
 	    };
 

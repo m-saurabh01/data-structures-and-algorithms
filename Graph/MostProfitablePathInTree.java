@@ -7,6 +7,8 @@ import java.util.List;
 /*
 			Leetcode Medium 2467. Most Profitable Path in a Tree
 */
+
+@SuppressWarnings("unchecked")
 public class MostProfitablePathInTree {
 	
 	public int mostProfitablePath(int[][] edges, int bob, int[] amount) {

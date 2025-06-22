@@ -7,6 +7,7 @@ import java.util.Queue;
 
 import Arrays.Pair;
 
+@SuppressWarnings("serial")
 public class FindMinTimeToReachLastRoom {
 	
 	public int minTimeToReach(int[][] moveTime) {
@@ -14,7 +15,8 @@ public class FindMinTimeToReachLastRoom {
 	                    new Pair<>(moveTime.length - 1, moveTime[0].length - 1));
 	  }
 
-	  private int dijkstra(int[][] moveTime, Pair<Integer, Integer> src, Pair<Integer, Integer> dst) {
+	  
+	private int dijkstra(int[][] moveTime, Pair<Integer, Integer> src, Pair<Integer, Integer> dst) {
 	    final int[][] DIRS = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
 	    final int m = moveTime.length;
 	    final int n = moveTime[0].length;

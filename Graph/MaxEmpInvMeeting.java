@@ -18,13 +18,14 @@ The employees are numbered from 0 to n - 1. Each employee has a favorite person 
 Given a 0-indexed integer array favorite, where favorite[i] denotes the favorite person of the ith employee, return the maximum number of employees that can be invited to the meeting.
 */
 
+@SuppressWarnings("unchecked")
 public class MaxEmpInvMeeting {
 	
 	enum State { kInit, kVisiting, kVisited }
 	
 	public int maximumInvitations(int[] favorite) {
 	    final int n = favorite.length;
-	    int sumComponentsLength = 0; // the component: a -> b -> c <-> x <- y
+	    int sumComponentsLength = 0; 
 	    List<Integer>[] graph = new List[n];
 	    int[] inDegrees = new int[n];
 	    int[] maxChainLength = new int[n];
@@ -83,7 +84,7 @@ public class MaxEmpInvMeeting {
 	        parent[v] = u;
 	        findCycle(graph, v, parent, seen, states);
 	      } else if (states[v] == State.kVisiting) {
-	        // Find the cycle's length.
+	       
 	        int curr = u;
 	        int cycleLength = 1;
 	        while (curr != v) {
