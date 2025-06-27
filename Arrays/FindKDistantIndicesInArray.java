@@ -6,7 +6,6 @@ import java.util.List;
 /*
 			2200. Find All K-Distant Indices in an Array
 */
-
 public class FindKDistantIndicesInArray {
 	
 	public List<Integer> findKDistantIndices(int[] nums, int key, int k) {
